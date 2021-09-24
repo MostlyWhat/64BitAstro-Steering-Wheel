@@ -8,7 +8,7 @@ Execute TurnIntoAJoyStick.bat
 
 ### Firmware Updating
 [Put Arduino in DFU Mode](https://www.arduino.cc/en/Hacking/DFUProgramming8U2)\
-Execute TurnIntoArduino.bat\
+Execute TurnIntoAnArduino.bat\
 Update the Arduino Code\
 Follow Firmware Installation
 
