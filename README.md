@@ -3,11 +3,11 @@ Prototype Steering Wheel Designed to be used with F1 Games from Codemasters. But
 
 ## Use in Arduino
 ### Firmware Installation
-![Put Arduino in DFU Mode](https://www.arduino.cc/en/Hacking/DFUProgramming8U2)\
+[Put Arduino in DFU Mode](https://www.arduino.cc/en/Hacking/DFUProgramming8U2)\
 Execute TurnIntoAJoyStick.bat\
 
 ### Firmware Updating
-![Put Arduino in DFU Mode](https://www.arduino.cc/en/Hacking/DFUProgramming8U2)\
+[Put Arduino in DFU Mode](https://www.arduino.cc/en/Hacking/DFUProgramming8U2)\
 Execute TurnIntoArduino.bat\
 Update the Arduino Code\
 Follow Firmware Installation\
