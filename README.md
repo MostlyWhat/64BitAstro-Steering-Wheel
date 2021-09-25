@@ -14,9 +14,6 @@ Follow Firmware Installation
 
 ## Connections (Not Finalised)
 A0 = Steering Wheel Direction X (Left Analog Stick)\
-A1 = Steering Wheel Direction Y (Left Analog Stick) Set to Neutral to Avoid Y Movements\
-A2 = Steering Wheel Direction X (Right Analog Stick) Set to Neutral to Avoid X Movements\
-A3 = Steering Wheel Direction Y (Right Analog Stick) Set to Neutral to Avoid Y Movements\
 A4 = Brake (Left Trigger) Currently a Button but can be changed to potentiometer for Analog Data\
 A5 = Throttle (Right Trigger) Currently a Button but can be changed to potentiometer for Analog Data
 
