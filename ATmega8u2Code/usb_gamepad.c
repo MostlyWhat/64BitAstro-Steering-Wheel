@@ -54,7 +54,7 @@
 
 // You can change these to give your code its own name.
 #define STR_MANUFACTURER	L"64Bit-Astro Systems Limited"
-#define STR_PRODUCT			L"Prototype SW-1"
+#define STR_PRODUCT			L"AstroX64 Steering Wheel"
 //#define STR_MANUFACTURER	L"SEGA"
 //#define STR_PRODUCT		L"VIRTUA STICK High Grade"
 
