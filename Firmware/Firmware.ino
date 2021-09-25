@@ -37,15 +37,15 @@ dataForController_t getControllerData(void){
   // Since our buttons are all held high and
   //  pulled low when pressed, we use the "!"
   //  operator to invert the readings from the pins
-  controllerData.l2On = !digitalRead(A4); //Red
-  controllerData.r2On = !digitalRead(A5); //Blue
+  controllerData.l1On = !digitalRead(A4); //Red = Left Trigger
+  controllerData.r1On = !digitalRead(A5); //Blue = Right Trigger
   
   // Set the analog sticks
   //  Since analogRead(pin) returns a 10 bit value,
   //  we need to perform a bit shift operation to
   //  lose the 2 least significant bits and get an
   //  8 bit number that we can use  
-  controllerData.leftStickX = analogRead(A0) >> 2;
+  controllerData.leftStickX = analogRead(A0) >> 2; //Steering Direction of Left Analog Stick
   controllerData.leftStickY = 128; //Centers Data
   controllerData.rightStickX = 128; //Centers Data
   controllerData.rightStickY = 128; //Centers Data
