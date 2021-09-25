@@ -37,21 +37,8 @@ dataForController_t getControllerData(void){
   // Since our buttons are all held high and
   //  pulled low when pressed, we use the "!"
   //  operator to invert the readings from the pins
-  controllerData.triangleOn = !digitalRead(2);
-  controllerData.circleOn = !digitalRead(3);
-  controllerData.squareOn = !digitalRead(4);
-  controllerData.crossOn = !digitalRead(5);
-  controllerData.dpadUpOn = !digitalRead(6);
-  controllerData.dpadDownOn = !digitalRead(7);
-  controllerData.dpadLeftOn = !digitalRead(8);
-  controllerData.dpadRightOn = !digitalRead(9);
-  controllerData.l1On = !digitalRead(10);
-  controllerData.r1On = !digitalRead(11);
-  controllerData.selectOn = !digitalRead(12);
-  controllerData.l2On = !digitalRead(22);
-  controllerData.r2On = !digitalRead(23);
-  controllerData.startOn = !digitalRead(A4);
-  controllerData.homeOn = !digitalRead(A5);
+  controllerData.l2On = !digitalRead(A4); //Red
+  controllerData.r2On = !digitalRead(A5); //Blue
   
   // Set the analog sticks
   //  Since analogRead(pin) returns a 10 bit value,
@@ -59,6 +46,10 @@ dataForController_t getControllerData(void){
   //  lose the 2 least significant bits and get an
   //  8 bit number that we can use  
   controllerData.leftStickX = analogRead(A0) >> 2;
+  controllerData.leftStickY = 128; //Centers Data
+  controllerData.rightStickX = 128; //Centers Data
+  controllerData.rightStickY = 128; //Centers Data
+  
   //controllerData.leftStickY = analogRead(A1) >> 2;
   //controllerData.rightStickX = analogRead(A2) >> 2;
   //controllerData.rightStickY = analogRead(A3) >> 2;
