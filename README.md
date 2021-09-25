@@ -14,8 +14,8 @@ Follow Firmware Installation
 
 ## Connections (Not Finalised)
 A0 = Steering Wheel Direction X (Left Analog Stick)\
-A4 = Brake (Left Trigger) Currently a Button but can be changed to potentiometer for Analog Data\
-A5 = Throttle (Right Trigger) Currently a Button but can be changed to potentiometer for Analog Data
+A1 = Brake (Left Trigger) Currently a Button but can be changed to potentiometer for Analog Data\
+A2 = Throttle (Right Trigger) Currently a Button but can be changed to potentiometer for Analog Data
 
 ## Schematics (Not Finalised)
 ![Schematics](Schematic.png "Schematics")
