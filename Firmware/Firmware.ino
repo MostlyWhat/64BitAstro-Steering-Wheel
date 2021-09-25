@@ -45,10 +45,10 @@ dataForController_t getControllerData(void){
   //  we need to perform a bit shift operation to
   //  lose the 2 least significant bits and get an
   //  8 bit number that we can use  
-  controllerData.leftStickX = analogRead(A0) >> 2; //Steering Direction of Left Analog Stick
-  controllerData.leftStickY = 128; //Centers Data
-  controllerData.rightStickX = 128; //Centers Data
-  controllerData.rightStickY = 128; //Centers Data
+  controllerData.leftStickX = analogRead(A0) >> 2; //Steering Direction of Left Analog Stick = X Axis
+  controllerData.leftStickY = 128; //Centers Data Because of Unused
+  controllerData.rightStickX = 128; //Centers Data Because of Other Button
+  controllerData.rightStickY = 128; //Centers Data Because of Other Button
   
   //controllerData.leftStickY = analogRead(A1) >> 2;
   //controllerData.rightStickX = analogRead(A2) >> 2;
