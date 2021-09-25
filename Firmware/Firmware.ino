@@ -59,9 +59,9 @@ dataForController_t getControllerData(void){
   //  lose the 2 least significant bits and get an
   //  8 bit number that we can use  
   controllerData.leftStickX = analogRead(A0) >> 2;
-  controllerData.leftStickY = analogRead(A1) >> 2;
-  controllerData.rightStickX = analogRead(A2) >> 2;
-  controllerData.rightStickY = analogRead(A3) >> 2;
+  //controllerData.leftStickY = analogRead(A1) >> 2;
+  //controllerData.rightStickX = analogRead(A2) >> 2;
+  //controllerData.rightStickY = analogRead(A3) >> 2;
   // And return the data!
   return controllerData;
 }
