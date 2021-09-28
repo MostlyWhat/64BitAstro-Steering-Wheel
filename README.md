@@ -1,4 +1,4 @@
-# 64BitAstro-Steering-Wheel (Version: Prototype 1) As of 25/9/2021
+# 64BitAstro-Steering-Wheel (Version: Prototype 1)
 Prototype Steering Wheel Designed to be used with F1 Games from Codemasters. But any other games should work fine through key-mapping. (Powered by Unojoy)
 
 ## Use in Arduino
